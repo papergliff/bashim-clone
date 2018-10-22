@@ -1,0 +1,11 @@
+.quote-rating__upvote {
+  float: left;
+}
+
+.quote-rating__rating {
+  vertical-align: middle;
+}
+
+.quote-rating__downvote {
+  float: right;
+}

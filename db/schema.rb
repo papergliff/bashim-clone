@@ -16,8 +16,8 @@ ActiveRecord::Schema.define(version: 2018_10_20_113548) do
   enable_extension "plpgsql"
 
   create_table "quotes", force: :cascade do |t|
-    t.text "content"
-    t.integer "rating"
+    t.text "content", null: false
+    t.integer "rating", default: 0, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
